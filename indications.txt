@@ -1,0 +1,35 @@
+// liste d'objets d'ingredients
+//objet qui contient les inputs
+// validateur de cake -> est ce que j'ai ski faut poyr frangipane ou
+
+// cuisson -> appel à un service qui fait la cuisson (isoler la fonction de cuisson et la simulter)
+// mock ---> on voit ca demain
+// deux grosses libraires mocktail < - et mockito
+
+//connaitre les differents etats de la galette
+//creation
+//cuisson
+//prix
+
+
+//revoir les erreurs 
+//pas de dependances entre les étapes.
+
+//chain responsability -> à regarder 
+//dmn soir point ensemble
+
+// entree liste d'ingredients -> sortie pour chaque galette si ca a marche ou pas 
+// ex : {[beurre: , s, e :], moule , ...}> donne galette 
+// on veut savoir l'erreur, puis tous les inputs de la galere (qu'est qui a fait échouer la création de la galette (étape par étape))
+// premiere etape pas cuite
+// 2e etape cuite ou pas cuit
+//3e prix si cuite 
+
+// alternatif -> si j'en ai trop
+// erreur -> si j'en ai pas assez
+
+// apres on test avec le moule, moule avec bonnes tailles avec ingredients qui varient (rendre les test modulaires)
+// test iteratif et incremental
+// Junit -> version 5 paramétré les tests (une liste etc a donner...)
+// bon ingredient bon moule
+// bon ingredient mauvais moule
